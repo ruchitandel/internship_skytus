@@ -1,0 +1,7 @@
+--optimize a slow join query
+
+SELECT *
+FROM customers c
+JOIN orders o
+ON c.customer_id = o.customer_id;
+
